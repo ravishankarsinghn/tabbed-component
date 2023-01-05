@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tab Component</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <!-- building operations tab component -->
+    <div class="operations">
+      <div class="operations__tab-container">
+        <button
+          class="btn operations__tab operations__tab--1 operations__tab--active"
+          data-tab="1"
+        >
+          <span>01.</span>HTML
+        </button>
+
+        <button class="btn operations__tab operations__tab--2" data-tab="2">
+          <span>02.</span>CSS
+        </button>
+
+        <button class="btn operations__tab operations__tab--3" data-tab="3">
+          <span>03.</span>JavaScript
+        </button>
+      </div>
+
+      <div
+        class="operations__content operations__content--1 operations__content--active"
+      >
+        <div class="operations__icon operations__icon--1">
+          <img src="./img/html.jpg" alt="HTML icon" />
+        </div>
+
+        <h5 class="operations__header">HTML (Hyper Text Markup Language)</h5>
+
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel soluta
+          temporibus quas deserunt suscipit error asperiores! Unde suscipit
+          atque eveniet minus cupiditate voluptates dolores voluptatibus
+          adipisci placeat asperiores alias maiores blanditiis itaque velit
+          omnis mollitia, perspiciatis fugit sint repellendus quam delectus
+          fugiat. Molestiae alias aspernatur veniam possimus cumque dolorem
+          minima!
+        </p>
+      </div>
+
+      <div class="operations__content operations__content--2">
+        <div class="operations__icon operations__icon--2">
+          <img src="./img/css.jpg" alt="CSS icon" />
+        </div>
+        <h5 class="operations__header">CSS (Cascade Style Sheet)</h5>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
+          voluptatum facere enim ad illum laboriosam nisi rem ipsa magni in
+          provident architecto accusantium quod ducimus culpa incidunt, officiis
+          voluptas deleniti voluptatibus! Nobis quae accusamus pariatur
+          aspernatur maiores, fugit porro ipsa alias. Voluptatibus nesciunt quos
+          et sit praesentium non nisi inventore!
+        </p>
+      </div>
+
+      <div class="operations__content operations__content--3">
+        <div class="operations__icon operations__icon--3">
+          <img src="./img/js.jpg" alt="JavaScript icon" />
+        </div>
+
+        <h5 class="operations__header">JS (JavaScript)</h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+          velit voluptates amet autem nulla atque esse eveniet quae adipisci non
+          magnam quis perspiciatis incidunt, distinctio optio corporis ipsum
+          impedit, similique quidem? Delectus voluptatum nam iure, sit
+          architecto voluptate minus sint doloribus voluptates tempora
+          repellendus asperiores saepe nihil vitae accusantium eaque.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
